@@ -30,6 +30,7 @@ const PizzaSchema = new Schema({
     virtuals: true,
     
     },
+    
     id: false
 }
 );
