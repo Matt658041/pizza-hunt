@@ -51,6 +51,6 @@ PizzaSchema.virtual('commentCount').get(function() {
   );
 });
 
-const Pizza = model('Pizza', PizzaSchema);
+const Pizza = model('pizza', PizzaSchema);
 
 module.exports = Pizza;
